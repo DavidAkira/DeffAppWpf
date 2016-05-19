@@ -81,6 +81,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\DayShape.cs" />
     <Compile Include="Models\Person.cs" />
     <Compile Include="Models\YearShape.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">

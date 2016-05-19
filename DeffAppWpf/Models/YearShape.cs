@@ -8,11 +8,14 @@ namespace DeffAppWpf.Models
 {
     class YearShape
     {
-        public double MeasurementWaist { get; set; }
-        public double MeasurementNeck { get; set; }
+        public int Id { get; set; }
+        public double StartMeasurementWaist { get; set; }
+        public double StartMeasurementNeck { get; set; }
         public double StartWeight { get; set; }
         public double GoalWeight { get; set; }
-        public string AppData { get; set; }
-        public double BodyFat { get; set; }
+        public DateTime StartTime { get; set; }
+        public DateTime EndTime { get; set; }
+        public double StartBodyFat { get; set; }
+        public IList<DayShape> DayShapes { get; set; }
     }
 }

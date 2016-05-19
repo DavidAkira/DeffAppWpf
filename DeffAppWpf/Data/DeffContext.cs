@@ -12,5 +12,7 @@ namespace DeffAppWpf.Data
     {
         public DbSet<Person> Persons { get; set; }
         public DbSet<YearShape> YearShapes { get; set; }
+        public DbSet<DayShape> DayShapes { get; set; }
+
     }
 }
